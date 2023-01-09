@@ -1,0 +1,16 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   alert("접속이 종료 되었습니다. 다시 로그인 하세요.");
+
+try {
+  
+  window.top.location.href="/ilos/main/main_form.acl";
+  
+} catch (e) {
+  // 에러 발생시 강제로 메인으로 보냄
+  window.top.location.href="/ilos/main/main_form.acl";
+}
+  </script>
+ </head>
+</html>
